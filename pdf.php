@@ -1,8 +1,8 @@
-<?PHP
-require('C:\xampp\htdocs\php_chap2\fpdf.php');
-$pd=new FPDF();
-$pd->addpage();
-$pd->setfont('Arial','B',16);
-$pd->cell(80,10,"Welcome to PHP programming");
-$pd->output();
+<?php
+require('fpdf.php');
+$pdf=new FPDF();
+$pdf->AddPage();
+$pdf->SetFont('Arial','B',16);
+$pdf->Cell(40,10,'Hello HARSH!');
+$pdf->Output();
 ?>
