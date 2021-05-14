@@ -22,7 +22,7 @@ class result extends employee{
     }
 }
 $r = new result();
-$r->get("hartsh",43);
+$r->get("harsh",43);
 $r->display();
 $r->show();
 $r->display();
